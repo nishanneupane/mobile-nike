@@ -2,6 +2,7 @@
   "expo": {
     "name": "nike",
     "slug": "nike",
+    "description": "This is an nike application created by nishan . it includes minimal ui but it manages state using redux.",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nishanneupane.nike"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "83bc01b7-7682-41a4-97f6-a914dec859b1"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/83bc01b7-7682-41a4-97f6-a914dec859b1"
     }
   }
 }
